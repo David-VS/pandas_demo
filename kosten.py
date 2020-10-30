@@ -27,7 +27,7 @@ data = {
 
 data_frame = pd.DataFrame(data)
 data_frame.to_excel('data/costs.xlsx', sheet_name="overview", index=False)
-
+data_frame.to_csv('data/costs.csv', index=False)
 #########
 ##Stats##
 #########

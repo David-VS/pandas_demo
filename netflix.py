@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+
 netflix_data = pd.read_csv("data/netflix_titles.csv")
 
 print(netflix_data.dtypes)
